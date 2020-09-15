@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0,29,89,0.97);
+}
+
+.container {
+    margin-top: 150px;
+    border: 2px solid rgb(4, 211, 97);
+    border-radius: 15px;
+    background-color: rgb(37, 26, 56);
+    width: 432px;
+    height: 426px;
+}
+
+h1 {
+    font-size: 31px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+
+label {
+    font-size: 22px;
+}
+
+input {
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+    margin-top: 35px;
+    padding: 4px;
+    border-radius: 4px;
+    transition: all 0.1s ease 0s;
+    background-color: #ded5d2;
+    font-size: 19px;
+}
+
+input.normal-input1 {
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+}
+
+input.normal-input2 {
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+}
+
+input:hover {
+    border: 3px solid rgb(4, 211, 97);
+}
+
+input.button {
+    background: rgb(4, 211, 97);
+    margin-left: 3%;
+    transition: 300ms;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 18px;
+    height: 50px;
+}
+
+input.button:hover {
+    background: rgb(3, 191, 88);
+}
+
+::-webkit-input-placeholder{
+    color: #dea5de;
+    font-size: 50px;
+}
